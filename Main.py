@@ -1,10 +1,7 @@
 import os
 from pdf2image import convert_from_path
 
-# Obtener una lista de todos los archivos en la carpeta
 archivos = os.listdir()
-# Solo mostrar los archivos PDF
-print(f'Se encontraron {len(archivos).endswith(".pdf")} archivos formato pdf')
 
 # Iterar sobre cada archivo en la carpeta
 for archivo in archivos:
